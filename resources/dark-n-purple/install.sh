@@ -1,7 +1,7 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/resources/scripts
 rm -rf main.css
-echo "@import url('https://oreokitten.github.io/latest/dark-n-purple/user.css')" >> /var/www/pterodactyl/resources/scripts/main.css
+echo "@import url('https://oreokitten.github.io/1.4/dark-n-purple/user.css')" >> /var/www/pterodactyl/resources/scripts/main.css
 rm -rf index.tsx
 wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/index.tsx
 cd ../..
