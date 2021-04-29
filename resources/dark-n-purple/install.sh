@@ -12,7 +12,7 @@ echo "User panel theme has been added."
 echo "Installing admin theme..."
 cd /var/www/pterodactyl/resources/views/layouts/
 rm -rf admin.blade.php
-wget https://raw.githubusercontent.com/DeveloperNeon/ptero-1.0-theme-install/main/resources/dark-n-purple/admin.blade.php
+wget https://raw.githubusercontent.com/RishavV123/ptero-1.0-theme-install/main/resources/dark-n-purple/admin.blade.php
 npm install yarn -g
 yarn install
 yarn add @emotion/react
