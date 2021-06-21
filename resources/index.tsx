@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from '@/components/App';
 import './i18n';
 import { setConfig } from 'react-hot-loader';
-import './main.css';
+import './user.css';
 
 import 'tailwindcss/dist/base.min.css';
 
